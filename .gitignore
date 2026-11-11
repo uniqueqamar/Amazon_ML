@@ -1,0 +1,19 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local datasets, fitted models, and generated artifacts
+dataset/
+validation/
+processed/
+models/
+output/
+*.joblib
+*.parquet
+*.zip
